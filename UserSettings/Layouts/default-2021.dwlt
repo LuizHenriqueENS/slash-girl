@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 53
+  controlID: 23
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 354
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 41
+  controlID: 55
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 42
+  controlID: 29
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,8 +268,8 @@ MonoBehaviour:
     y: 0
     width: 1257
     height: 671
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
@@ -309,14 +309,14 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: -7914066963320106822, guid: ec969cbee3c243747816c4fa68dfbc3b, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.81218034
+    - e00: 0.7415143
       e01: 0
       e02: 0
-      e03: -227.41046
+      e03: -80.25357
       e10: 0
-      e11: 0.81218034
+      e11: 0.7415143
       e12: 0
-      e13: 143.73434
+      e13: 233.72914
       e20: 0
       e21: 0
       e22: 1
@@ -382,36 +382,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites/Personagens/Guerreira feminino - Clembod/Individual Sprite/Run
+    - "Assets/Anima\xE7\xF5es/Jogador"
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites/Personagens/Guerreira feminino - Clembod/Individual Sprite/Run
+  - "Assets/Anima\xE7\xF5es/Jogador"
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\workspace\unity\Slash girl
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 261}
-    m_SelectedIDs: 9a6d0000
-    m_LastClickedID: 28058
-    m_ExpandedIDs: 00000000ae640000c8640000ce64000038650000f46b0000ee6c000058840000369b0000
+    scrollPos: {x: 0, y: 63}
+    m_SelectedIDs: 32620000
+    m_LastClickedID: 25138
+    m_ExpandedIDs: 000000001e62000020620000226200002462000026620000286200003a62000040620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Guerreira feminino - Clembod
-      m_OriginalName: Guerreira feminino - Clembod
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 27886
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -425,7 +425,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000001e62000020620000226200002462000026620000286200002a620000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -453,7 +453,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000ee6b000000000000
+    m_ExpandedInstanceIDs: c6230000ee6b00000000000072710000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -553,9 +553,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 68bfffff
-      m_LastClickedID: -16536
-      m_ExpandedIDs: b2efffff22f9ffff20fbffff
+      m_SelectedIDs: 32620000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -571,7 +571,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 11}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -850,7 +850,7 @@ MonoBehaviour:
       index: 3
       layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -859,9 +859,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.5279741, y: 0.5135232, z: -0.0064099855}
+    m_Target: {x: -3.1987667, y: 1.2326187, z: 0.014976559}
     speed: 2
-    m_Value: {x: -1.5279741, y: 0.5135232, z: -0.0064099855}
+    m_Value: {x: -3.1987667, y: 1.2326187, z: 0.014976559}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -912,9 +912,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.2694774
+    m_Target: 3.614266
     speed: 2
-    m_Value: 2.2694774
+    m_Value: 3.614266
   m_Ortho:
     m_Target: 1
     speed: 2

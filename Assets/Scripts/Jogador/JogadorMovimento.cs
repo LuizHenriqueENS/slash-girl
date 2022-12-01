@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class JogadorMovimento : MonoBehaviour
 {
 
     Rigidbody2D rb;
-
+    [SerializeField]CinemachineVirtualCamera mainCamera;
 
     //animação
     Animator animator;
@@ -14,11 +15,12 @@ public class JogadorMovimento : MonoBehaviour
     //movimentação
     [SerializeField] float velocidadeDoMovimento = 100f;
     float movimentacaoHorizontal;
-    bool m_FacingRight = false;
+    bool m_FacingRight = true;
 
+    [SerializeField] float dash = 10f;
     private void Awake()
     {
-        Application.targetFrameRate = -1;
+        Application.targetFrameRate = 90;
     }
 
     void Start()
@@ -35,16 +37,25 @@ public class JogadorMovimento : MonoBehaviour
         animator.SetFloat("Correr", Mathf.Abs(movimentacaoHorizontal));
 
 
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            mainCamera.m_Lens.OrthographicSize = 2;
+            Debug.Log("Dash");
+            animator.SetTrigger("Dash");
+            rb.AddForce(Vector2.right * dash);
+        } 
+        
     }
-
 
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(movimentacaoHorizontal * Time.fixedDeltaTime, rb.velocity.y);
-
+        
     }
 
-
+    private void FimDoDash(){
+       mainCamera.m_Lens.OrthographicSize = 3;
+    }
     private void MovimentarJogador()
     {
         movimentacaoHorizontal = Input.GetAxisRaw("Horizontal") * velocidadeDoMovimento;
